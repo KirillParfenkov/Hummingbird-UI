@@ -23,8 +23,16 @@ header {
 
 		.title {
 			font-size: 37px;
-			font-family: 'Play', sans-serif;
+		  	font-family: 'Play', sans-serif;
 			font-weight: bold;
+		}
+
+	  	.top-menu {
+		  	display: flex;
+		  	flex-direction: row-reverse;
+			font-family: 'Play', sans-serif;
+		  	flex-basis: auto;
+		  	flex-grow: 1;
 		}
 	}
 
