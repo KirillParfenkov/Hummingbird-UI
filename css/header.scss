@@ -1,0 +1,38 @@
+@import 'color';
+@import 'sizes';
+@import 'base';
+
+header {
+
+	margin-top: 60px;
+
+
+	.top-content {
+		@extend .base-container;
+		display: flex;
+		align-items: center;
+
+		.logo {
+			width: 60px;
+			height: 60px;
+			margin-right: 20px;
+			background: url("../img/3912-kalibri-450x450.svg.png");
+			background-size: 60px 60px;
+    		background-repeat: no-repeat;
+		}
+
+		.title {
+			font-size: 37px;
+			font-family: 'Play', sans-serif;
+			font-weight: bold;
+		}
+	}
+
+	.middle-content {
+		@extend .base-container;
+		.line {
+		  	margin-top: 5px;
+			border-bottom: 3px dashed $main-color;
+		}
+	}
+}
