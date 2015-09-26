@@ -3,4 +3,5 @@
 /css/*.css.map
 .idea
 /app/bower_components
+/bower_components
 .sass-cache
