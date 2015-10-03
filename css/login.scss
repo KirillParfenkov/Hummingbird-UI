@@ -1,0 +1,67 @@
+@import 'color';
+@import 'sizes';
+@import 'reset';
+
+
+body {
+	background-color: #fff;
+}
+
+.content-login{
+	width: 250px;
+	margin: auto auto;
+	margin-top: 100px;
+
+	.login-form {
+		font-family: 'Play', sans-serif;
+		font-size: 17px;
+
+		.row {
+			padding-top: 10px;
+
+			label {
+				display: block;
+				width: 244px;
+				text-align: center;
+				padding: 3px;
+			}
+
+			input {
+				width: 240px;
+				padding: 3px;
+
+			}
+
+			input[type="submit"] {
+				font-size: 15px;
+				margin-top: 10px;
+				width: 250px;
+				background-color: #fff;
+				border: 1px solid $base-border;
+				height: 27px;
+				background-color: $base-background;
+			}
+			
+			.logo {
+				width: 60px;
+				height: 60px;
+				margin-right: 20px;
+				margin-left: 17px;
+				background: url("../img/3912-kalibri-450x450.svg.png");
+				background-size: 60px 60px;
+	    		background-repeat: no-repeat;
+			}
+
+			.title {
+				font-size: 17px;
+				font-weight: bold;
+			}
+		}
+
+		.row.logo {
+			display: flex;
+			align-items: center;
+			margin-bottom: 30px;
+		}
+	}
+}

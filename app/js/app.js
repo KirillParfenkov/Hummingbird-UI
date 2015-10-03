@@ -3,11 +3,12 @@
 /* App Module */
 
 var hummingbirdApp = angular.module('hummingbirdApp', [
-  'ngRoute',
-  'hummingbirdAnimations',
-  'hummingbirdControllers',
-  'hummingbirdFilters',
-  'hummingbirdServices'
+    'ngRoute',
+    'hummingbirdAnimations',
+    'hummingbirdControllers',
+    'hummingbirdFilters',
+    'hummingbirdServices',
+    'ngSanitize'
 ]);
 
 hummingbirdApp.config(['$routeProvider',
